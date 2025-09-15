@@ -1,0 +1,34 @@
+# dependencies
+node_modules/
+.pnp/
+.pnp.cjs
+
+# next.js
+.next/
+out/
+.vercel/
+.turbo/
+.next-static/
+
+# build / tooling
+dist/
+coverage/
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# env (keep an example file committed)
+.env*
+!.env.example
+
+# OS junk
+.DS_Store
+Thumbs.db
